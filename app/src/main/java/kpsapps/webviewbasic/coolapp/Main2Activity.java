@@ -27,19 +27,7 @@ public class Main2Activity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //webview codes starts
-        WebView htmlWebView = (WebView) findViewById(R.id.webView);
-        // String newUA= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36";
-        // htmlWebView.getSettings().setUserAgentString(newUA);
-        htmlWebView.setWebViewClient(new Main2Activity.CustomWebViewClienti());
-        WebSettings webSetting = htmlWebView.getSettings();
-       htmlWebView.getSettings().setJavaScriptEnabled(true);
-        htmlWebView.getSettings().setSupportZoom(true);
-        htmlWebView.getSettings().setBuiltInZoomControls(true);
-        htmlWebView.getSettings().setDisplayZoomControls(false);
-        htmlWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
-        htmlWebView.setScrollbarFadingEnabled(false);
-        htmlWebView.getSettings().setAppCacheEnabled(true);
-        htmlWebView.loadUrl("https://udom.ac.tz/");
+      //removed
 
 
         htmlWebView.setDownloadListener(new DownloadListener() {
