@@ -72,13 +72,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
             //webview codes starts
-            WebView htmlWebView = (WebView) findViewById(R.id.webView);
-            htmlWebView.setWebViewClient(new CustomWebViewClient());
-            WebSettings webSetting = htmlWebView.getSettings();
-            htmlWebView.getSettings().setDomStorageEnabled(true);
-            htmlWebView.getSettings().setJavaScriptEnabled(true);
-            htmlWebView.getSettings().setSupportZoom(true);
-            htmlWebView.getSettings().setBuiltInZoomControls(true);
+
 
 //some codes are removed for security purpose
 //WhatsApp +255 657 197 284 for more info
