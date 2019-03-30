@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UDOM SR</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UDOM SR APP</string>
+    <string name="nav_header_subtitle">The University of Dodoma</string>
+    <string name="nav_header_desc">UDOM SR</string>
+    <string name="action_settings">Exit</string>
+    <string name="title_activity_main2">UDOM SR</string>
+    <string name="admob_banner_id">ca-app-pub-6717385911857350/5706916541</string>
+    <string name="admob_interstitial_id">ca-app-pub-6717385911857350/9804097746</string>
+
+
+</resources>

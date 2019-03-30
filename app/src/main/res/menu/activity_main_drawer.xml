@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sr"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/edit_info"
+            android:icon="@drawable/person"
+            android:title="Edit My Info" />
+         <item
+            android:id="@+id/course_reg"
+            android:icon="@drawable/news"
+            android:title="Course Registration"
+            />
+        <item
+            android:id="@+id/finalist_exit"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Finalist Exit Survey"
+            />
+        <item
+            android:id="@+id/courseworks"
+            android:icon="@drawable/ic_insert_chart_black_24dp"
+            android:title="Courseworks"
+            />
+        <item
+            android:title="Course Results"
+            android:icon="@drawable/ic_insert_chart_black_24dp"
+            android:id="@+id/courseresults"/>
+        <item
+            android:title="Course Materials and Notes"
+            android:id="@+id/coursematerials"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            />
+        <item
+            android:title="Graduation Confirmation"
+            android:id="@+id/graduationconf"
+            android:icon="@drawable/ic_school_black_24dp"
+
+            />
+        <item
+            android:title="Accommodation"
+            android:id="@+id/accomodation"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            />
+        <item
+            android:title="Web Version"
+            android:id="@+id/webversion"
+            android:icon="@drawable/ic_public_black_24dp"
+            />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/myprofile"
+                android:title="My Profile"
+                android:icon="@drawable/person"/>
+            <item
+                android:title="Change Password"
+                android:id="@+id/changepwd"
+                android:icon="@drawable/ic_lock_black_24dp"
+                />
+            <item
+                android:title="Logout"
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+
+                />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share This App" />
+            <item
+                android:title="Rate This App"
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/star"
+                />
+
+        </menu>
+    </item>
+
+    <item android:title="Developer"
+        android:visible="false">
+        <menu>
+            <item
+                android:visible="false"
+                android:title="Send Feedback"
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/ic_email_black_24dp"
+
+                />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:title="Evaluation"
+        android:id="@+id/evaluation"
+        />
+    <item
+        android:title="UDOSO Election"
+        android:id="@+id/election"
+        />
+    <item
+        android:title="UDOM News &amp; Events"
+        android:id="@+id/news"
+        />
+    <item
+        android:title="Rate This App"
+        android:id="@+id/rate"
+        />
+    <item
+        android:title="Reload"
+        app:showAsAction="always"
+        android:id="@+id/reload"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        />
+</menu>

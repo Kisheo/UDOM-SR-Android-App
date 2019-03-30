@@ -1,0 +1,282 @@
+#versionBar {display:none !important;}
+.navbar-brand {display:none !important;}
+a {color: #9c5607 !important;}
+.divider {height: 2px !important;
+    background-color: #c87409 !important;}
+.fa {line-height: 2 !important;}
+.sidebar-search {display: none !important;}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: static !important;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: static !important;
+    z-index: -1;
+}
+.fa-fw {
+    display: none;
+}
+.fa-caret-down {
+	    display: none !important;
+
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 10px #b16209 !important;
+    border-top: 10px #b16209 !important;
+    border-left: 10px #b16209 !important;
+    background-color: #b16209 !important;
+    color: white;
+    font-style: normal !important;
+}
+.navbar-top-links li a {
+    padding: 10px;
+    min-height: 30px !important;
+	max-height:30px !important;
+}
+.dropdown-menu {
+      display: none !important;
+}
+#side-menu {
+    display: none !important;
+}
+@font-face{
+    font-family: "segoe";
+    src: url("file:///android_asset/segoeui.ttf");
+}
+.dropdown {
+    position: relative !important;
+}
+.navbar-toggle {
+display:none !important;
+}
+h4, .h4 {color: #0f6ec2 !important;}
+
+.panel-default > .panel-heading {
+    color: #F6F3F3 !important;
+    background-color: #0a90da !important;
+    border-color: #0963c9 !important;
+}
+.panel-default {
+    border-color: #0b72b4 !important;
+}
+.alert-danger {
+    background-color: #ad1857 !important;
+    border-color: #b0700f !important;
+    color: #fefaf6 !important;
+}
+.alert-info {
+    background-color: #0a9f94 !important;
+    border-color: #9e5d09 !important;
+    color: #f9fafb !important;
+}
+
+
+.rowttttt {
+
+    background-color: #b16209 !important;
+    color: white !important;
+}
+
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #b16209 !important;
+    color: white !important;
+}
+table{width:100% !important;}
+
+
+ body {
+    font-family: segoe !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-image: none !important;
+	background-size: 0 !important;
+}
+#login {
+	width: auto !important;
+	margin: auto !important;
+	border: 10px #01b0f1 solid !important;
+	margin-bottom: 20px !important;
+	padding: 0 !important;
+	background-color: #01b0f1 !important;
+	border-radius: 20px !important;
+	-webkit-border-radius: 20px !important;
+}
+#login .ribbon {
+	position: absolute !important;
+	width: 111px !important;
+	height: 110px !important;
+}
+#login .shadow {
+	position: absolute !important;
+	width: auto !important;
+	margin-top: 5px !important;
+	background-image: none !important;
+	height: 33px !important;
+}
+#login .inner {
+	background-color:#FFF !important;
+	border: 1px #cccccc solid !important;
+	min-height: 230px !important;
+	border-radius: 20px !important;
+	-webkit-border-radius: 20px !important;
+}
+
+#login .logo {
+	text-align:center !important;
+	padding:0px 0px 0px 0px !important;
+	top: 5% !important;
+	left: 50% !important;
+}
+
+#login .formLogin {
+	width:auto !important;
+	margin:auto !important;
+	position: relative !important;
+	height: 200px !important;
+	padding: 40px 20px 20px 20px !important;
+}
+#login #username_id, #login #password {
+	font-size: 13px !important;
+	background-repeat:no-repeat !important;
+	padding-left: 35px !important;
+	height: 35px !important;
+	background-position: 2px 3px !important;
+	line-height: 35px !important;
+	color: #01b0f1 !important;
+	width: auto !important;
+	margin-bottom: 10px !important;
+	font-family:"Myriad Pro", Arial, Helvetica, sans-serif !important;
+	border-radius: 20px !important;
+}
+#login #username_id:focus, #login #password:focus {
+	color:#000 !important;
+}
+#login #username_id {
+
+}
+#login #password {
+
+	font-size: 13px !important;
+}
+#login .userbox {
+	height: 260px !important;
+	position: absolute !important;
+	width: auto !important;
+	background-color: #FFF !important;
+	background-repeat: no-repeat !important;
+	background-position: center 170px !important;
+}
+#login .userbox .userload {
+	left: 50% !important;
+	margin-left: 0px !important;
+	margin-top: 0px !important;
+}
+#login .userbox .userload:hover {
+	cursor: pointer !important;
+}
+input[type=text], input[type=password], .fileupload {
+	background-position: 5px 5px !important;
+	border: solid 1px #dddddd !important;
+	outline: 0 !important;
+	line-height: 28px !important;
+	height: 28px !important;
+	padding: 0px 7px 0px 7px !important;
+	-moz-box-shadow:1px 1px 2px #f5f5f5 !important;
+	-webkit-box-shadow:1px 1px 2px #f5f5f5 !important;
+	box-shadow:1px 1px 2px #f5f5f5 !important;
+	-webkit-transition: all 0.4s ease 0s !important;
+	-moz-transition: all 0.4s ease 0s !important;
+	-o-transition: all 0.4s ease 0s !important;
+	transition: all 0.4s ease 0s !important;
+}
+//the buttons
+
+.uibutton {
+	position: relative !important;
+	z-index: 1 !important;
+	overflow: visible !important;
+	display: inline-block !important;
+	padding: 18px 25px 18px 25px !important;
+	margin: 0 !important;
+	text-decoration: none !important;
+	text-align: center !important;
+	cursor: pointer !important;
+	outline: none !important;
+	border: 1px solid #01b0f1 !important;
+	text-shadow:0 1px 0 #01b0f1 !important;
+	color: #f7fbfd !important;
+	background-position:0 -1px !important;
+	background-color:#9bc652 !important;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
+	-webkit-transition: all .2s ease-out !important;
+	-moz-transition:all.2s ease-out !important;
+	-o-transition: all .2s ease-out !important;
+	transition: all.2s ease-out !important;
+	font-weight: bold !important;
+	font-size: 11px !important;
+	text-transform: capitalize !important;
+	margin-top: -1px !important;
+	border-radius: 30px !important;
+}
+.uibutton:hover, .uibutton:focus, .uibutton:active {
+	background-image: url(../images/ui-lgreen.html) !important;
+	background-position:0 59px !important;
+	color: #f7fbfd !important;
+	text-shadow:0 1px 0 #000000 !important;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 1px !important;
+}
+.uibutton:active {
+/*	border-color: #5b7217 !important;
+	background: #b4cf1f !important;*/
+	color: #f7fbfd !important;
+	filter: none !important;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 1px 1px 5px #9cb611 !important;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 1px !important;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 1px 1px 5px #9cb611 !important;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 1px 1px 5px #9cb611 !important;
+	cursor:pointer !important;
+}
+
+.uibutton.normal {
+	color: #f7fbfd !important;
+	background-color: #01b0f1 !important;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#01b0f1), to(#01b0f1)) !important;
+	background-image: -moz-linear-gradient(#01b0f1, #01b0f1) !important;
+	background-image: -o-linear-gradient(#01b0f1, #01b0f1) !important;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#01b0f1', EndColorStr='#01b0f1') !important; /* for IE 6 - 9 */
+ 	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #01b0f1 !important;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #01b0f1 !important;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #01b0f1 !important;
+	text-shadow:none !important;
+	border: 1px solid #01b0f1 !important;
+	border-bottom-color: #01b0f1 !important;
+	margin: 0 !important;
+	border-radius: 30px !important;
+}
+.uibutton.normal:hover {
+	color: #000000 !important;
+	background-color: #0592c6 !important;
+	-webkit-box-shadow: 0 0px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #01b0f1 !important;
+	-moz-box-shadow: 0 0px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #01b0f1 !important;
+	box-shadow: 0 0px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #01b0f1 !important;
+	text-shadow:none !important;
+	border-radius: 30px !important;
+}
+.uibutton.normal:active {
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 1px 1px 8px #f7fbfd !important;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 1px 1px 8px #f7fbfd !important;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 1px 1px 8px #f7fbfd !important;
+}
+.uibutton-group {
+	display: inline-block !important;
+	list-style: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	/* IE hacks */
+    zoom: 1 !important;
+ *display: inline !important;
+}
